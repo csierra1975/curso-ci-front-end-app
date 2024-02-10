@@ -46,7 +46,7 @@ export class AddCustomerComponent  {
     if(this.dialogRef){  
        this.dialogRef.close();
     }
-    console.info('Customer created, going to customers list');
+   
     window.location.reload();
     //this.router.navigate(['/customers']);
 } 
